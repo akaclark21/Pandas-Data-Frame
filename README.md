@@ -11,4 +11,4 @@ In the real world, a Pandas DataFrame will be created by loading the datasets fr
 **1. Creating a dataframe using List:** DataFrame can be created using a single list or a list of lists.
 
 
-**2. Creating a dataframe using List:** DataFrame can be created using a single list or a list of lists.
+**2. Creating DataFrame from dict of ndarray/lists:** To create DataFrame from dict of narray/list, all the narray must be of same length. If index is passed then the length index should be equal to the length of arrays. If no index is passed, then by default, index will be range(n) where n is the array length
